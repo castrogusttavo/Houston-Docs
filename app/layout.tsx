@@ -8,9 +8,6 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Houston Icons Pro Documentation',
-  icons: {
-    icon: '/icon.svg',
-  },
 }
 
 export default function RootLayout({
@@ -19,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className='dark'>
+    <html lang="en" className="dark">
       <body className={inter.className}>
         {children}
         <Analytics />
