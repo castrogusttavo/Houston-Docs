@@ -238,7 +238,7 @@ export function TabIndex({ children, link }: TabProps) {
   return (
     <li className="flex flex-col gap-1">
       <Link
-        href="/docs"
+        href="/"
         className={`${pathname === `/${link}` ? 'flex rounded px-2 py-1.5 text-sm transition-colors break-words cursor-pointer bg-blue-100 font-semibold text-blue-800 dark:bg-blue-400/10 dark:text-blue-600' : 'flex rounded px-2 py-1.5 text-sm transition-colors break-words cursor-pointer hover:bg-gray-100 text-gray-500 hover:text-gray-800 hover:dark:bg-blue-100/5 dark:text-grey-400 hover:dark:text-grey-50'}`}
       >
         {children}
@@ -295,7 +295,7 @@ export function SideBar() {
               ]}
             >
               <Accordion.Item value="introduction">
-                <TabIndex link="docs">Introduction</TabIndex>
+                <TabIndex link="">Introduction</TabIndex>
               </Accordion.Item>
               <AccordionItem groupName="Installation" value="installation">
                 <TabIndex link="/installation/react-package-installation">
