@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { usePathname } from 'next/navigation'
 import * as DropdownMenu from '@radix-ui/react-dropdown-menu'
 import * as Accordion from '@radix-ui/react-accordion'
@@ -277,9 +277,39 @@ export function AccordionItem({ groupName, children, value }: AccordionProps) {
 }
 
 export function SideBar() {
+  const scrollContainerRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const savedScrollPosition = sessionStorage.getItem(
+      'sidebar-scroll-position',
+    )
+    if (savedScrollPosition && scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTo(0, parseInt(savedScrollPosition, 10))
+    }
+
+    const handleScrollSave = () => {
+      if (scrollContainerRef.current) {
+        sessionStorage.setItem(
+          'sidebar-scroll-position',
+          scrollContainerRef.current.scrollTop.toString(),
+        )
+      }
+    }
+
+    const scrollContainer = scrollContainerRef.current
+    scrollContainer?.addEventListener('scroll', handleScrollSave)
+
+    return () => {
+      scrollContainer?.removeEventListener('scroll', handleScrollSave)
+    }
+  }, [])
+
   return (
     <aside className="flex-col md:shrink-0 motion-reduce:translate-none transform-gpu transition-all ease-in-out print:hidden md:w-64 md:self-start max-md:[transform:translate3d(0,-100%,0)] md:h-[calc(100vh-(4rem)-(3.75rem))] scrollbar-hide sticky top-16 hidden md:flex">
-      <div className="overflow-y-auto overflow-x-hidden p-4 grow md:h-[calc(100vh-(4rem)-(3.75rem))] sticky top-16 scrollbar-hide">
+      <div
+        ref={scrollContainerRef}
+        className="overflow-y-auto overflow-x-hidden p-4 grow md:h-[calc(100vh-(4rem)-(3.75rem))] sticky top-16 scrollbar-hide"
+      >
         <div className="transform-gpu overflow-hidden transition-all ease-in-out motion-reduce:transition-none scrollbar-hide">
           <div className="transition-opacity duration-500 ease-in-out motion-reduce:transition-none opacity-100 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-200 dark:scrollbar-thumb-neutral-700 dark:scrollbar-track-neutral-800 scrollbar-hide">
             <Accordion.Root

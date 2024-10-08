@@ -63,7 +63,7 @@ export function CodeBlock({ children }: CodeProps) {
 
   return (
     <div className="group relative mt-6 first:mt-0 font-mono">
-      <pre className="bg-slate-700/5 mb-4 overflow-x-auto rounded-xl subpixel-antialiased dark:bg-zinc-300/10 text-[.9rem] py-4 text-slate-900 dark:text-slate-100">
+      <pre className="bg-slate-700/5 mb-4 overflow-x-auto rounded-xl subpixel-antialiased dark:bg-zinc-300/10 text-sm py-4 text-slate-900 dark:text-slate-100">
         {children}
       </pre>
       <div className="opacity-0 transition group-hover:opacity-100 focus-within:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0">
