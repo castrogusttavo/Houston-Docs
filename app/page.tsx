@@ -32,7 +32,7 @@ export default function DocsPage() {
             to make your applications look vibrant and dynamic.
           </Paragraph>
           <Paragraph>
-            With more than 27,000 icons available in 7 different styles, our
+            With more than 36,000 icons available in 7 different styles, our
             collection offers a wide range of easily customizable and scalable
             icons, perfect for enhancing user interfaces.
           </Paragraph>

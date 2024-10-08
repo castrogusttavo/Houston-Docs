@@ -37,7 +37,7 @@ export default function IconFontPage() {
             <LinkText href="https://www.houstonicons.com.br/free-icon-font">
               Houston website
             </LinkText>{' '}
-            Extract the zip file and copy the folder contents to the
+            Extract the zip file and copy the folder contents to the{' '}
             <Code>public/fonts</Code> folder in the project root.
           </Paragraph>
           <H2 id="usage">
