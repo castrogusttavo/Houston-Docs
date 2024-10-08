@@ -77,7 +77,7 @@ export default function DocsPage() {
           </Paragraph>
           <DateBlock dateTime="Oct, 05, 2024">Oct, 05, 2024</DateBlock>
           <Pagination>
-            <PaginationButton href="/docs" orientation="right">
+            <PaginationButton href="/installation/react-package" orientation="right">
               React Page
             </PaginationButton>
           </Pagination>

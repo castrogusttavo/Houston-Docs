@@ -41,7 +41,6 @@ export function Link({ href, children }: LinkProps) {
     }
 
     return () => {
-      // Limpa o observer ao desmontar
       if (observerRef.current) {
         observerRef.current.disconnect()
       }
@@ -55,7 +54,7 @@ export function Link({ href, children }: LinkProps) {
         className={`${
           isActive
             ? 'font-semibold inline-block text-blue-600 subpixel-antialiased w-full break-words'
-            : 'font-semibold inline-block text-grey-900 dark:text-grey-300 subpixel-antialiased w-full break-words'
+            : 'font-semibold inline-block text-grey-600 hover:text-grey-800 dark:text-grey-300 dark:hover:text-grey-100 subpixel-antialiased w-full break-words'
         }`}
       >
         {children}

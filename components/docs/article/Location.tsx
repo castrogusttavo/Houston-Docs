@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import React from 'react'
 
@@ -40,13 +42,17 @@ export function Breadcrumbs({ crumbs }: BreadcrumbsProps) {
   )
 }
 
-interface TabsButtonProps {
+interface TabsButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   children: React.ReactNode
 }
 
-export function TabsButton({ children }: TabsButtonProps) {
+export function TabsButton({ children, ...props }: TabsButtonProps) {
   return (
-    <button className="mr-2 rounded-t p-2 font-medium leading-5 transition-colors -mb-0.5 select-none border-b-2 border-transparent text-grey-600 hover:border-grey-200 hover:text-black dark:text-grey-200 dark:hover:border-neutral-800 dark:hover:text-white">
+    <button
+      className={`mr-2 rounded-t p-2 font-medium leading-5 transition-colors -mb-0.5 select-none border-b-2 border-transparent text-grey-600 hover:border-grey-200 hover:text-black dark:text-grey-200 dark:hover:border-neutral-300 dark:hover:text-white`}
+      {...props}
+    >
       {children}
     </button>
   )
@@ -59,7 +65,7 @@ interface TabsProps {
 export function Tabs({ children }: TabsProps) {
   return (
     <div className="overflow-x-auto overflow-y-hidden overscroll-x-auto">
-      <div className="mt-4 flex w-max min-w-full border-b border-grey-200 pb-px dark:border-neutral-800">
+      <div className="mt-4 flex w-max min-w-full border-b border-grey-200 pb-px dark:border-neutral-500">
         {children}
       </div>
     </div>

@@ -238,8 +238,8 @@ export function TabIndex({ children, link }: TabProps) {
   return (
     <li className="flex flex-col gap-1">
       <Link
-        href="/"
-        className={`${pathname === `/${link}` ? 'flex rounded px-2 py-1.5 text-sm transition-colors break-words cursor-pointer bg-blue-100 font-semibold text-blue-800 dark:bg-blue-400/10 dark:text-blue-600' : 'flex rounded px-2 py-1.5 text-sm transition-colors break-words cursor-pointer hover:bg-gray-100 text-gray-500 hover:text-gray-800 hover:dark:bg-blue-100/5 dark:text-grey-400 hover:dark:text-grey-50'}`}
+        href={link}
+        className={`${pathname === `${link}` ? 'flex rounded px-2 py-1.5 text-sm transition-colors break-words cursor-pointer bg-blue-100 font-semibold text-blue-800 dark:bg-blue-400/10 dark:text-blue-600' : 'flex rounded px-2 py-1.5 text-sm transition-colors break-words cursor-pointer hover:bg-gray-100 text-gray-500 hover:text-gray-800 hover:dark:bg-blue-100/5 dark:text-grey-400 hover:dark:text-grey-50'}`}
       >
         {children}
       </Link>
@@ -295,64 +295,48 @@ export function SideBar() {
               ]}
             >
               <Accordion.Item value="introduction">
-                <TabIndex link="">Introduction</TabIndex>
+                <TabIndex link="/">Introduction</TabIndex>
               </Accordion.Item>
               <AccordionItem groupName="Installation" value="installation">
-                <TabIndex link="/installation/react-package-installation">
+                <TabIndex link="/installation/react-package">
                   React Package
                 </TabIndex>
-                <TabIndex link="/installation/vye-package-installation">
+                <TabIndex link="/installation/vue-package">
                   Vue Package
                 </TabIndex>
-                <TabIndex link="/installation/angular-package-installation">
+                <TabIndex link="/installation/angular-package">
                   Angular Package
                 </TabIndex>
-                <TabIndex link="/installation/ionic-package-installation">
-                  Ionic Package
-                </TabIndex>
-                <TabIndex link="/installation/react-native-package-installation">
+                <TabIndex link="/installation/react-native-package">
                   React Native Package
                 </TabIndex>
-                <TabIndex link="/installation/icon-font-installation">
-                  Icon Font
+                <TabIndex link="/installation/ionic-package">
+                  Ionic Package
                 </TabIndex>
+                <TabIndex link="/installation/icon-font">Icon Font</TabIndex>
               </AccordionItem>
               <AccordionItem groupName="Usage" value="usage">
-                <TabIndex link="/installation/react-package-installation">
-                  Customization
-                </TabIndex>
-                <TabIndex link="/installation/vye-package-installation">
-                  Using React
-                </TabIndex>
-                <TabIndex link="/installation/angular-package-installation">
-                  Using Vue
-                </TabIndex>
-                <TabIndex link="/installation/ionic-package-installation">
-                  Using Angular
-                </TabIndex>
-                <TabIndex link="/installation/react-native-package-installation">
-                  Using Ionic
-                </TabIndex>
-                <TabIndex link="/installation/icon-font-installation">
+                <TabIndex link="/usage/customization">Customization</TabIndex>
+                <TabIndex link="/usage/using-react">Using React</TabIndex>
+                <TabIndex link="/usage/using-vue">Using Vue</TabIndex>
+                <TabIndex link="/usage/using-angular">Using Angular</TabIndex>
+                <TabIndex link="/usage/using-ionic">Using Ionic</TabIndex>
+                <TabIndex link="/usage/using-react-native">
                   Using React Native
                 </TabIndex>
               </AccordionItem>
               <AccordionItem groupName="Features" value="features">
-                <TabIndex link="/installation/react-package-installation">
-                  Autocomplete
-                </TabIndex>
-                <TabIndex link="/installation/vye-package-installation">
+                <TabIndex link="/features/autocomplete">Autocomplete</TabIndex>
+                <TabIndex link="/features/customizable-icons">
                   Customizable Icons
                 </TabIndex>
-                <TabIndex link="/installation/angular-package-installation">
-                  Icon Library
-                </TabIndex>
+                <TabIndex link="/features/icon-library">Icon Library</TabIndex>
               </AccordionItem>
               <AccordionItem groupName="Best Practice" value="best-practice">
-                <TabIndex link="/installation/react-package-installation">
+                <TabIndex link="best-practice/application-integration">
                   Application Integration
                 </TabIndex>
-                <TabIndex link="/installation/vye-package-installation">
+                <TabIndex link="best-practice/icon-selection">
                   Icon Selection
                 </TabIndex>
               </AccordionItem>
@@ -360,15 +344,15 @@ export function SideBar() {
                 groupName="Troubleshooting"
                 value="troubleshooting"
               >
-                <TabIndex link="/installation/react-package-installation">
+                <TabIndex link="/troubleshooting/common-issues">
                   Common Issues
                 </TabIndex>
               </AccordionItem>
               <AccordionItem groupName="FAQs" value="faqs">
-                <TabIndex link="/installation/react-package-installation">
+                <TabIndex link="/installation/react-package">
                   License Questions
                 </TabIndex>
-                <TabIndex link="/installation/vye-package-installation">
+                <TabIndex link="/installation/vye-package">
                   Technical Support
                 </TabIndex>
               </AccordionItem>

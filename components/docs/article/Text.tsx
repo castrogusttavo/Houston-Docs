@@ -50,6 +50,7 @@ export function LinkText({ children, href }: TextProps) {
   return (
     <a
       href={href}
+      target="_blank"
       className="text-blue-600 underline decoration-from-font [text-underline-position:from-font]"
     >
       {children}
