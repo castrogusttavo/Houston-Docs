@@ -379,10 +379,7 @@ export function SideBar() {
                 </TabIndex>
               </AccordionItem>
               <AccordionItem groupName="FAQs" value="faqs">
-                <TabIndex link="/installation/react-package">
-                  License Questions
-                </TabIndex>
-                <TabIndex link="/installation/vye-package">
+                <TabIndex link="/faqs/technical-support">
                   Technical Support
                 </TabIndex>
               </AccordionItem>

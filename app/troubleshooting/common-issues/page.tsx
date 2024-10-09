@@ -143,14 +143,17 @@ export default function CommonIssuesPage() {
           </OrderedList>
           <DateBlock dateTime="Oct, 08, 2024">Oct, 08, 2024</DateBlock>
           <Pagination>
-            <PaginationButton href="/features/icon-library" orientation="left">
-              Icon Library
-            </PaginationButton>
             <PaginationButton
               href="/best-practice/icon-selection"
-              orientation="right"
+              orientation="left"
             >
               Icon Selection
+            </PaginationButton>
+            <PaginationButton
+              href="/faqs/technical-support"
+              orientation="right"
+            >
+              Technical Support
             </PaginationButton>
           </Pagination>
         </Article>
