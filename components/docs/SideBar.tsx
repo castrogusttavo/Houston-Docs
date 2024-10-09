@@ -363,10 +363,10 @@ export function SideBar() {
                 <TabIndex link="/features/icon-library">Icon Library</TabIndex>
               </AccordionItem>
               <AccordionItem groupName="Best Practice" value="best-practice">
-                <TabIndex link="best-practice/application-integration">
+                <TabIndex link="/best-practice/application-integration">
                   Application Integration
                 </TabIndex>
-                <TabIndex link="best-practice/icon-selection">
+                <TabIndex link="/best-practice/icon-selection">
                   Icon Selection
                 </TabIndex>
               </AccordionItem>
