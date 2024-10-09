@@ -20,27 +20,42 @@ interface AccordionProps {
 export function ThemeProvider() {
   const [isTheme, setIsTheme] = useState('system')
 
-  function setDarkMode() {
-    document.documentElement.classList.add('dark')
-    setIsTheme('dark')
-  }
-
-  function setLightMode() {
-    document.documentElement.classList.remove('dark')
-    setIsTheme('light')
-  }
-
-  function setSystemMode() {
+  useEffect(() => {
+    const storedTheme = localStorage.getItem('theme')
     const prefersDark = window.matchMedia(
       '(prefers-color-scheme: dark)',
     ).matches
-    if (prefersDark) {
+    if (storedTheme) {
+      setIsTheme(storedTheme)
+    } else if (prefersDark && isTheme === 'system') {
       document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
     }
-    setIsTheme('system')
-  }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  useEffect(() => {
+    if (isTheme === 'dark') {
+      document.documentElement.classList.add('dark')
+      localStorage.setItem('theme', 'dark')
+    } else if (isTheme === 'light') {
+      document.documentElement.classList.remove('dark')
+      localStorage.setItem('theme', 'light')
+    } else {
+      localStorage.removeItem('theme')
+      const prefersDark = window.matchMedia(
+        '(prefers-color-scheme: dark)',
+      ).matches
+      if (prefersDark) {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    }
+  }, [isTheme])
+
+  const setDarkMode = () => setIsTheme('dark')
+  const setLightMode = () => setIsTheme('light')
+  const setSystemMode = () => setIsTheme('system')
 
   return (
     <DropdownMenu.Root>
