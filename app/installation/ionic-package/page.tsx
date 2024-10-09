@@ -80,8 +80,11 @@ export default function AngularPackagePage() {
           </Tabs>
           <CodeBlock>
             <CodeLine>
-              <span className="text-purple-400">
-                {command} <span className="text-orange-300">{packageName}</span>
+              <span className="text-purple-800 dark:text-purple-400">
+                {command}{' '}
+                <span className="text-orange-600 dark:text-orange-300">
+                  {packageName}
+                </span>
               </span>
             </CodeLine>
           </CodeBlock>
@@ -95,27 +98,29 @@ export default function AngularPackagePage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-red-400">
+              <span className="text-red-700 dark:text-red-400">
                 import{' '}
-                <span className="text-white">
+                <span className="text-grey-800 dark:text-white">
                   &#123; HoustonIconsModule &#125;
                 </span>{' '}
-                <span className="text-red-400">from</span>{' '}
-                <span className="text-green-500">
+                <span className="text-red-700 dark:text-red-400">from</span>{' '}
+                <span className="text-green-800 dark:text-green-500">
                   &apos;@houstonicons/ionic&apos;
                 </span>
               </span>
             </CodeLine>
             <br />
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 @NgModule <span>&#123;&#40;</span>
                 <br />
-                <span className="text-red-400 ml-8">imports:</span>{' '}
-                <span className="text-orange-300">
+                <span className="text-red-700 dark:text-red-400 ml-8">
+                  imports:
+                </span>{' '}
+                <span className="text-orange-600 dark:text-orange-300">
                   [...,HoustonIconsModule]
                 </span>
-                <span className="text-white">,</span>
+                <span className="text-grey-800 dark:text-white">,</span>
                 <br />
                 <span>&#41;&#125;</span>
               </span>
@@ -132,10 +137,13 @@ export default function AngularPackagePage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-red-400">
-                import <span className="text-white">&#123;&#125;</span>{' '}
-                <span className="text-red-400">from</span>{' '}
-                <span className="text-green-500">
+              <span className="text-red-700 dark:text-red-400">
+                import{' '}
+                <span className="text-grey-800 dark:text-white">
+                  &#123;&#125;
+                </span>{' '}
+                <span className="text-red-700 dark:text-red-400">from</span>{' '}
+                <span className="text-green-800 dark:text-green-500">
                   &apos;@houstonicons/ionic&apos;
                 </span>
               </span>
@@ -150,41 +158,49 @@ export default function AngularPackagePage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;
-                <span className="text-green-500">houston-abacus-icon</span>{' '}
+                <span className="text-green-800 dark:text-green-500">
+                  houston-abacus-icon
+                </span>{' '}
                 <br />
                 <div className="ml-8">
-                  <span className="text-blue-300">
-                    [iconSize]<span className="text-red-300">=</span>
-                    <span className="text-orange-300">&quot;48&quot;</span>
+                  <span className="text-blue-800 dark:text-blue-300">
+                    [iconSize]
+                    <span className="text-red-700 dark:text-red-400">=</span>
+                    <span className="text-orange-600 dark:text-orange-300">
+                      &quot;48&quot;
+                    </span>
                   </span>{' '}
                 </div>
                 <div className="ml-8">
-                  <span className="text-blue-300">
-                    [fillType]<span className="text-red-300">=</span>
-                    <span className="text-orange-300">
+                  <span className="text-blue-800 dark:text-blue-300">
+                    [fillType]
+                    <span className="text-red-700 dark:text-red-400">=</span>
+                    <span className="text-orange-600 dark:text-orange-300">
                       &quot;&apos;solid&apos;&quot;
                     </span>
                   </span>{' '}
                 </div>
                 <div className="ml-8">
-                  <span className="text-blue-300">
-                    [cornerStyle]<span className="text-red-300">=</span>
-                    <span className="text-orange-300">
+                  <span className="text-blue-800 dark:text-blue-300">
+                    [cornerStyle]
+                    <span className="text-red-700 dark:text-red-400">=</span>
+                    <span className="text-orange-600 dark:text-orange-300">
                       &quot;&apos;rounded&apos;&quot;
                     </span>
                   </span>{' '}
                 </div>
                 <div className="ml-8">
-                  <span className="text-blue-300">
-                    [color]<span className="text-red-300">=</span>
-                    <span className="text-orange-300">
+                  <span className="text-blue-800 dark:text-blue-300">
+                    [color]
+                    <span className="text-red-700 dark:text-red-400">=</span>
+                    <span className="text-orange-600 dark:text-orange-300">
                       &quot;&apos;#FFFFFF&apos;&quot;
                     </span>
                   </span>{' '}
                 </div>
-                <span className="text-white">/&#62;</span>
+                <span className="text-grey-800 dark:text-white">/&#62;</span>
               </span>
             </CodeLine>
           </CodeBlock>

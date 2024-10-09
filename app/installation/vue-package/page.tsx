@@ -79,8 +79,11 @@ export default function VuePackagePage() {
           </Tabs>
           <CodeBlock>
             <CodeLine>
-              <span className="text-purple-400">
-                {command} <span className="text-orange-300">{packageName}</span>
+              <span className="text-purple-800 dark:text-purple-400">
+                {command}{' '}
+                <span className="text-orange-600 dark:text-orange-300">
+                  {packageName}
+                </span>
               </span>
             </CodeLine>
           </CodeBlock>
@@ -94,10 +97,13 @@ export default function VuePackagePage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-red-400">
-                import <span className="text-white">&#123;&#125;</span>{' '}
-                <span className="text-red-400">from</span>{' '}
-                <span className="text-green-500">
+              <span className="text-red-700 dark:text-red-400">
+                import{' '}
+                <span className="text-grey-800 dark:text-white">
+                  &#123;&#125;
+                </span>{' '}
+                <span className="text-red-700 dark:text-red-400">from</span>{' '}
+                <span className="text-green-800 dark:text-green-500">
                   &apos;@houstonicons/vue&apos;
                 </span>
               </span>
@@ -112,52 +118,66 @@ export default function VuePackagePage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;
-                <span className="text-green-500">script</span>{' '}
-                <span className="text-blue-300">setup=&quot;ts&quot;</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">
+                  script
+                </span>{' '}
+                <span className="text-blue-800 dark:text-blue-300">
+                  setup=&quot;ts&quot;
+                </span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-red-300 ml-8">
+              <span className="text-red-700 dark:text-red-400 ml-8">
                 import{' '}
-                <span className="text-white">&#123;Home01Icon&#125;</span>{' '}
-                <span className="text-red-300">from</span>
-                <span className="text-green-500">
+                <span className="text-grey-800 dark:text-white">
+                  &#123;Home01Icon&#125;
+                </span>{' '}
+                <span className="text-red-700 dark:text-red-400">from</span>
+                <span className="text-green-800 dark:text-green-500">
                   {' '}
                   &apos;@houstonicons/vue&apos;
                 </span>
-                <span className="text-white">;</span>
+                <span className="text-grey-800 dark:text-white">;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;/
-                <span className="text-green-500">script</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">
+                  script
+                </span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <br />
             <CodeLine>
-              <span className="text-red-400">
+              <span className="text-red-700 dark:text-red-400">
                 &#60;
-                <span className="text-green-500">template</span>{' '}
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">
+                  template
+                </span>{' '}
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-8">
+              <span className="text-grey-800 dark:text-white ml-8">
                 &#60;
-                <span className="text-green-500">Home01Icon</span>{' '}
+                <span className="text-green-800 dark:text-green-500">
+                  Home01Icon
+                </span>{' '}
                 <span>/&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;/
-                <span className="text-green-500">template</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">
+                  template
+                </span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
           </CodeBlock>

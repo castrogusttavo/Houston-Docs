@@ -65,11 +65,13 @@ export default function CommonIssuesPage() {
               package.
               <CodeBlock>
                 <CodeLine>
-                  <span className="text-red-400">
+                  <span className="text-red-700 dark:text-red-400">
                     import{' '}
-                    <span className="text-white">&#123; Home01Icon &#125;</span>{' '}
-                    <span className="text-red-400">from</span>{' '}
-                    <span className="text-green-500">
+                    <span className="text-grey-800 dark:text-white">
+                      &#123; Home01Icon &#125;
+                    </span>{' '}
+                    <span className="text-red-700 dark:text-red-400">from</span>{' '}
+                    <span className="text-green-800 dark:text-green-500">
                       &apos;@houstonicons/react&apos;
                     </span>
                   </span>

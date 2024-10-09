@@ -80,8 +80,11 @@ export default function ReactNativePackagePage() {
           </Tabs>
           <CodeBlock>
             <CodeLine>
-              <span className="text-purple-400">
-                {command} <span className="text-orange-300">{packageName}</span>
+              <span className="text-purple-800 dark:text-purple-400">
+                {command}{' '}
+                <span className="text-orange-600 dark:text-orange-300">
+                  {packageName}
+                </span>
               </span>
             </CodeLine>
           </CodeBlock>
@@ -95,10 +98,13 @@ export default function ReactNativePackagePage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-red-400">
-                import <span className="text-white">&#123;&#125;</span>{' '}
-                <span className="text-red-400">from</span>{' '}
-                <span className="text-green-500">
+              <span className="text-red-700 dark:text-red-400">
+                import{' '}
+                <span className="text-grey-800 dark:text-white">
+                  &#123;&#125;
+                </span>{' '}
+                <span className="text-red-700 dark:text-red-400">from</span>{' '}
+                <span className="text-green-800 dark:text-green-500">
                   &apos;@houstonicons/react-native&apos;
                 </span>
               </span>
@@ -113,66 +119,80 @@ export default function ReactNativePackagePage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-red-400">
-                import <span className="text-white">React</span>{' '}
-                <span className="text-red-400">from</span>{' '}
-                <span className="text-green-500">&apos;react&apos;</span>
+              <span className="text-red-700 dark:text-red-400">
+                import{' '}
+                <span className="text-grey-800 dark:text-white">React</span>{' '}
+                <span className="text-red-700 dark:text-red-400">from</span>{' '}
+                <span className="text-green-800 dark:text-green-500">
+                  &apos;react&apos;
+                </span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-red-400">
+              <span className="text-red-700 dark:text-red-400">
                 import{' '}
-                <span className="text-white">&#123; Home01Icon &#125;</span>{' '}
-                <span className="text-red-400">from</span>{' '}
-                <span className="text-green-500">
+                <span className="text-grey-800 dark:text-white">
+                  &#123; Home01Icon &#125;
+                </span>{' '}
+                <span className="text-red-700 dark:text-red-400">from</span>{' '}
+                <span className="text-green-800 dark:text-green-500">
                   &apos;@houstonicons/react&apos;
                 </span>
               </span>
             </CodeLine>
             <br />
             <CodeLine>
-              <span className="text-red-400">
-                function <span className="text-purple-400">App</span>
+              <span className="text-red-700 dark:text-red-400">
+                function{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  App
+                </span>
                 {''}
-                <span className="text-white">&#40;&#41; &#123;&#125;</span>{' '}
+                <span className="text-grey-800 dark:text-white">
+                  &#40;&#41; &#123;&#125;
+                </span>{' '}
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-red-400 ml-4">
-                return <span className="text-white">&#40;</span>
+              <span className="text-red-700 dark:text-red-400 ml-4">
+                return{' '}
+                <span className="text-grey-800 dark:text-white">&#40;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-8">
+              <span className="text-grey-800 dark:text-white ml-8">
                 &#60;
-                <span className="text-blue-300">View</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-blue-800 dark:text-blue-300">View</span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-12">
+              <span className="text-grey-800 dark:text-white ml-12">
                 &#60;
-                <span className="text-blue-300">Home01Icon</span>{' '}
-                <span className="text-white">/&#62;</span>
+                <span className="text-blue-800 dark:text-blue-300">
+                  Home01Icon
+                </span>{' '}
+                <span className="text-grey-800 dark:text-white">/&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-8">
+              <span className="text-grey-800 dark:text-white ml-8">
                 &#60;/
-                <span className="text-blue-300">View</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-blue-800 dark:text-blue-300">View</span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-4">&#41;;</span>
+              <span className="text-grey-800 dark:text-white ml-4">&#41;;</span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white">&#125;</span>
+              <span className="text-grey-800 dark:text-white">&#125;</span>
             </CodeLine>
             <br />
             <CodeLine>
-              <span className="text-red-400">
-                export default <span className="text-white">App;</span>
+              <span className="text-red-700 dark:text-red-400">
+                export default{' '}
+                <span className="text-grey-800 dark:text-white">App;</span>
               </span>
             </CodeLine>
           </CodeBlock>

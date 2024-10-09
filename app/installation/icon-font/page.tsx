@@ -52,163 +52,203 @@ export default function IconFontPage() {
           </H3>
           <CodeBlock>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;!
-                <span className="text-green-500">DOCTYPE</span>{' '}
-                <span className="text-purple-400">html</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">
+                  DOCTYPE
+                </span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  html
+                </span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;
-                <span className="text-green-500">html</span>{' '}
-                <span className="text-purple-400">lang</span>
+                <span className="text-green-800 dark:text-green-500">
+                  html
+                </span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  lang
+                </span>
+                {''}
+                <span className="text-red-700 dark:text-red-400">=</span>
+                {''}
+                <span className="text-green-800 dark:text-green-500">
+                  &quot;en&quot;
+                </span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
+              </span>
+            </CodeLine>
+            <CodeLine>
+              <span className="text-grey-800 dark:text-white ml-8">
+                &#60;
+                <span className="text-green-800 dark:text-green-500">head</span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
+              </span>
+            </CodeLine>
+            <CodeLine>
+              <span className="text-grey-800 dark:text-white ml-12">
+                &#60;
+                <span className="text-green-800 dark:text-green-500">
+                  meta
+                </span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  charset
+                </span>
                 {''}
                 <span className="text-red-400">=</span>
                 {''}
-                <span className="text-green-500">&quot;en&quot;</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">
+                  &quot;UTF-8&quot;
+                </span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-8">
+              <span className="text-grey-800 dark:text-white ml-12">
                 &#60;
-                <span className="text-green-500">head</span>
-                <span className="text-white">&#62;</span>
-              </span>
-            </CodeLine>
-            <CodeLine>
-              <span className="text-white ml-12">
-                &#60;
-                <span className="text-green-500">meta</span>{' '}
-                <span className="text-purple-400">charset</span>
+                <span className="text-green-800 dark:text-green-500">
+                  meta
+                </span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  name
+                </span>
                 {''}
                 <span className="text-red-400">=</span>
                 {''}
-                <span className="text-green-500">&quot;UTF-8&quot;</span>
-                <span className="text-white">&#62;</span>
-              </span>
-            </CodeLine>
-            <CodeLine>
-              <span className="text-white ml-12">
-                &#60;
-                <span className="text-green-500">meta</span>{' '}
-                <span className="text-purple-400">name</span>
-                {''}
-                <span className="text-red-400">=</span>
-                {''}
-                <span className="text-green-500">
+                <span className="text-green-800 dark:text-green-500">
                   &quot;viewport&quot;
                 </span>{' '}
-                <span className="text-purple-400">content</span>
+                <span className="text-purple-800 dark:text-purple-400">
+                  content
+                </span>
                 {''}
                 <span className="text-red-400">=</span>
                 {''}
-                <span className="text-green-500">
+                <span className="text-green-800 dark:text-green-500">
                   &quot;width=device-width, initial-scale=1.0&quot;
                 </span>
-                <span className="text-white">&#62;</span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-12">
+              <span className="text-grey-800 dark:text-white ml-12">
                 &#60;
-                <span className="text-green-500">meta</span>{' '}
-                <span className="text-purple-400">rel</span>
+                <span className="text-green-800 dark:text-green-500">
+                  meta
+                </span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  rel
+                </span>
                 {''}
                 <span className="text-red-400">=</span>
                 {''}
-                <span className="text-green-500">
+                <span className="text-green-800 dark:text-green-500">
                   &quot;stylesheet&quot;
                 </span>{' '}
-                <span className="text-purple-400">href</span>
+                <span className="text-purple-800 dark:text-purple-400">
+                  href
+                </span>
                 {''}
                 <span className="text-red-400">=</span>
                 {''}
-                <span className="text-green-500">
+                <span className="text-green-800 dark:text-green-500">
                   &quot;public/font/houstonicons-font.css&quot;
                 </span>
-                <span className="text-white">&#62;</span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-12">
+              <span className="text-grey-800 dark:text-white ml-12">
                 &#60;
-                <span className="text-green-500">title</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">
+                  title
+                </span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
                 <span>Your website title</span>
-                <span className="text-white">
+                <span className="text-grey-800 dark:text-white">
                   &#60;/
-                  <span className="text-green-500">title</span>
-                  <span className="text-white">&#62;</span>
+                  <span className="text-green-800 dark:text-green-500">
+                    title
+                  </span>
+                  <span className="text-grey-800 dark:text-white">&#62;</span>
                 </span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-8">
+              <span className="text-grey-800 dark:text-white ml-8">
                 &#60;/
-                <span className="text-green-500">head</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">head</span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-8">
+              <span className="text-grey-800 dark:text-white ml-8">
                 &#60;
-                <span className="text-green-500">body</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">body</span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-12">
+              <span className="text-grey-800 dark:text-white ml-12">
                 &#60;
-                <span className="text-green-500">i</span>{' '}
-                <span className="text-purple-400">class</span>
+                <span className="text-green-800 dark:text-green-500">
+                  i
+                </span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  class
+                </span>
                 {''}
                 <span className="text-red-400">=</span>
                 {''}
-                <span className="text-green-500">
+                <span className="text-green-800 dark:text-green-500">
                   &quot;hgi-stroke hgi-home-01&quot;
                 </span>
-                <span className="text-white">&#62;</span>
-                <span className="text-white">
+                <span className="text-grey-800 dark:text-white">&#62;</span>
+                <span className="text-grey-800 dark:text-white">
                   &#60;/
-                  <span className="text-green-500">i</span>
-                  <span className="text-white">&#62;</span>
+                  <span className="text-green-800 dark:text-green-500">i</span>
+                  <span className="text-grey-800 dark:text-white">&#62;</span>
                 </span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-12">
+              <span className="text-grey-800 dark:text-white ml-12">
                 &#60;
-                <span className="text-green-500">i</span>{' '}
-                <span className="text-purple-400">class</span>
+                <span className="text-green-800 dark:text-green-500">
+                  i
+                </span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  class
+                </span>
                 {''}
                 <span className="text-red-400">=</span>
                 {''}
-                <span className="text-green-500">
+                <span className="text-green-800 dark:text-green-500">
                   &quot;hgi-stroke hgi-home-youtube&quot;
                 </span>
-                <span className="text-white">&#62;</span>
-                <span className="text-white">
+                <span className="text-grey-800 dark:text-white">&#62;</span>
+                <span className="text-grey-800 dark:text-white">
                   &#60;/
-                  <span className="text-green-500">i</span>
-                  <span className="text-white">&#62;</span>
+                  <span className="text-green-800 dark:text-green-500">i</span>
+                  <span className="text-grey-800 dark:text-white">&#62;</span>
                 </span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white ml-8">
+              <span className="text-grey-800 dark:text-white ml-8">
                 &#60;/
-                <span className="text-green-500">body</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">body</span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;/
-                <span className="text-green-500">html</span>
-                <span className="text-white">&#62;</span>
+                <span className="text-green-800 dark:text-green-500">html</span>
+                <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
           </CodeBlock>

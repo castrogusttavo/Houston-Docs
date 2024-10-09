@@ -76,16 +76,18 @@ export default function CustomizableIconPage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;
-                <span className="text-blue-300">Home01Icon</span>{' '}
-                <span className="text-purple-400">
-                  color<span className="text-red-300">=</span>
-                  <span className="text-green-500">
+                <span className="text-blue-800 dark:text-blue-300">
+                  Home01Icon
+                </span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  color<span className="text-red-700 dark:text-red-400">=</span>
+                  <span className="text-green-800 dark:text-green-500">
                     &quot;rebeccapurple&quot;
                   </span>
                 </span>{' '}
-                <span className="text-white">/&#62;</span>{' '}
+                <span className="text-grey-800 dark:text-white">/&#62;</span>{' '}
               </span>
             </CodeLine>
           </CodeBlock>
@@ -100,16 +102,18 @@ export default function CustomizableIconPage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;
-                <span className="text-blue-300">Home01Icon</span>{' '}
-                <span className="text-purple-400">
-                  size<span className="text-red-300">=</span>
-                  <span className="text-white">&#123;</span>
-                  <span className="text-blue-300">24</span>
-                  <span className="text-white">&#125;</span>
+                <span className="text-blue-800 dark:text-blue-300">
+                  Home01Icon
                 </span>{' '}
-                <span className="text-white">/&#62;</span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  size<span className="text-red-700 dark:text-red-400">=</span>
+                  <span className="text-grey-800 dark:text-white">&#123;</span>
+                  <span className="text-blue-800 dark:text-blue-300">24</span>
+                  <span className="text-grey-800 dark:text-white">&#125;</span>
+                </span>{' '}
+                <span className="text-grey-800 dark:text-white">/&#62;</span>{' '}
               </span>
             </CodeLine>
           </CodeBlock>
@@ -123,14 +127,19 @@ export default function CustomizableIconPage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;
-                <span className="text-blue-300">Home01Icon</span>{' '}
-                <span className="text-purple-400">
-                  variant<span className="text-red-300">=</span>
-                  <span className="text-green-500">&quot;solid&quot;</span>
+                <span className="text-blue-800 dark:text-blue-300">
+                  Home01Icon
                 </span>{' '}
-                <span className="text-white">/&#62;</span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  variant
+                  <span className="text-red-700 dark:text-red-400">=</span>
+                  <span className="text-green-800 dark:text-green-500">
+                    &quot;solid&quot;
+                  </span>
+                </span>{' '}
+                <span className="text-grey-800 dark:text-white">/&#62;</span>{' '}
               </span>
             </CodeLine>
           </CodeBlock>
@@ -144,18 +153,25 @@ export default function CustomizableIconPage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;
-                <span className="text-blue-300">Home01Icon</span>{' '}
-                <span className="text-purple-400">
-                  variant<span className="text-red-300">=</span>
-                  <span className="text-green-500">&quot;solid&quot;</span>
+                <span className="text-blue-800 dark:text-blue-300">
+                  Home01Icon
                 </span>{' '}
-                <span className="text-purple-400">
-                  type<span className="text-red-300">=</span>
-                  <span className="text-green-500">&quot;rounded&quot;</span>
+                <span className="text-purple-800 dark:text-purple-400">
+                  variant
+                  <span className="text-red-700 dark:text-red-400">=</span>
+                  <span className="text-green-800 dark:text-green-500">
+                    &quot;solid&quot;
+                  </span>
                 </span>{' '}
-                <span className="text-white">/&#62;</span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  type<span className="text-red-700 dark:text-red-400">=</span>
+                  <span className="text-green-800 dark:text-green-500">
+                    &quot;rounded&quot;
+                  </span>
+                </span>{' '}
+                <span className="text-grey-800 dark:text-white">/&#62;</span>{' '}
               </span>
             </CodeLine>
           </CodeBlock>
@@ -169,28 +185,37 @@ export default function CustomizableIconPage() {
           </Paragraph>
           <CodeBlock>
             <CodeLine>
-              <span className="text-white">
+              <span className="text-grey-800 dark:text-white">
                 &#60;
-                <span className="text-blue-300">Home01Icon</span>{' '}
-                <span className="text-purple-400">
-                  color<span className="text-red-300">=</span>
-                  <span className="text-green-500">&quot;navy&quot;</span>
+                <span className="text-blue-800 dark:text-blue-300">
+                  Home01Icon
                 </span>{' '}
-                <span className="text-purple-400">
-                  size<span className="text-red-300">=</span>
-                  <span className="text-white">&#123;</span>
-                  <span className="text-blue-300">32</span>
-                  <span className="text-white">&#125;</span>
+                <span className="text-purple-800 dark:text-purple-400">
+                  color<span className="text-red-700 dark:text-red-400">=</span>
+                  <span className="text-green-800 dark:text-green-500">
+                    &quot;navy&quot;
+                  </span>
                 </span>{' '}
-                <span className="text-purple-400">
-                  variant<span className="text-red-300">=</span>
-                  <span className="text-green-500">&quot;duotone&quot;</span>
+                <span className="text-purple-800 dark:text-purple-400">
+                  size<span className="text-red-700 dark:text-red-400">=</span>
+                  <span className="text-grey-800 dark:text-white">&#123;</span>
+                  <span className="text-blue-800 dark:text-blue-300">32</span>
+                  <span className="text-grey-800 dark:text-white">&#125;</span>
                 </span>{' '}
-                <span className="text-purple-400">
-                  type<span className="text-red-300">=</span>
-                  <span className="text-green-500">&quot;rounded&quot;</span>
+                <span className="text-purple-800 dark:text-purple-400">
+                  variant
+                  <span className="text-red-700 dark:text-red-400">=</span>
+                  <span className="text-green-800 dark:text-green-500">
+                    &quot;duotone&quot;
+                  </span>
                 </span>{' '}
-                <span className="text-white">/&#62;</span>{' '}
+                <span className="text-purple-800 dark:text-purple-400">
+                  type<span className="text-red-700 dark:text-red-400">=</span>
+                  <span className="text-green-800 dark:text-green-500">
+                    &quot;rounded&quot;
+                  </span>
+                </span>{' '}
+                <span className="text-grey-800 dark:text-white">/&#62;</span>{' '}
               </span>
             </CodeLine>
           </CodeBlock>

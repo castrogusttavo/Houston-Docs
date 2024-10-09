@@ -91,11 +91,13 @@ export default function AutocompletePage() {
               <br />
               <CodeBlock>
                 <CodeLine>
-                  <span className="text-red-400">
+                  <span className="text-red-700 dark:text-red-400">
                     import{' '}
-                    <span className="text-white">&#123; Home01Icon &#125;</span>{' '}
-                    <span className="text-red-400">from</span>{' '}
-                    <span className="text-green-500">
+                    <span className="text-grey-800 dark:text-white">
+                      &#123; Home01Icon &#125;
+                    </span>{' '}
+                    <span className="text-red-700 dark:text-red-400">from</span>{' '}
+                    <span className="text-green-800 dark:text-green-500">
                       &apos;@houstonicons/react&apos;
                     </span>
                   </span>
@@ -109,20 +111,34 @@ export default function AutocompletePage() {
               <br />
               <CodeBlock>
                 <CodeLine>
-                  <span className="text-white">
+                  <span className="text-grey-800 dark:text-white">
                     &#60;
-                    <span className="text-blue-300">Home01Icon</span>{' '}
-                    <span className="text-purple-400">
-                      size<span className="text-red-300">=</span>
-                      <span className="text-white">&#123;</span>
-                      <span className="text-blue-300">24</span>
-                      <span className="text-white">&#125;</span>
+                    <span className="text-blue-800 dark:text-blue-300">
+                      Home01Icon
                     </span>{' '}
-                    <span className="text-purple-400">
-                      color<span className="text-red-300">=</span>
-                      <span className="text-green-500">&quot;blue&quot;</span>
+                    <span className="text-purple-800 dark:text-purple-400">
+                      size
+                      <span className="text-red-700 dark:text-red-400">=</span>
+                      <span className="text-grey-800 dark:text-white">
+                        &#123;
+                      </span>
+                      <span className="text-blue-800 dark:text-blue-300">
+                        24
+                      </span>
+                      <span className="text-grey-800 dark:text-white">
+                        &#125;
+                      </span>
                     </span>{' '}
-                    <span className="text-white">/&#62;</span>{' '}
+                    <span className="text-purple-800 dark:text-purple-400">
+                      color
+                      <span className="text-red-700 dark:text-red-400">=</span>
+                      <span className="text-green-800 dark:text-green-500">
+                        &quot;blue&quot;
+                      </span>
+                    </span>{' '}
+                    <span className="text-grey-800 dark:text-white">
+                      /&#62;
+                    </span>{' '}
                   </span>
                 </CodeLine>
               </CodeBlock>
