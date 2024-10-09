@@ -55,7 +55,7 @@ export function Header() {
 
   return (
     <nav className="sticky top-0 z-20 w-full bg-transparent print:hidden">
-      <div className="pointer-events-none absolute z-[-1] h-full w-full bg-slate-50 dark:bg-zinc-900 shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] dark:shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] contrast-more:shadow-[0_0_0_1px_#000] contrast-more:dark:shadow-[0_0_0_1px_#fff] backdrop-blur-sm" />
+      <div className="pointer-events-none absolute z-[-1] h-full w-full bg-slate-50 dark:bg-zinc-950 shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] dark:shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] contrast-more:shadow-[0_0_0_1px_#000] contrast-more:dark:shadow-[0_0_0_1px_#fff] backdrop-blur-sm" />
       <div className="mx-auto flex h-[var(--nextra-navbar-height)] max-w-[90rem] items-center justify-between gap-2 pl-[max(env(safe-area-inset-left),1.5rem)] pr-[max(env(safe-area-inset-right),1.5rem)]">
         <Link href="/" passHref className="hover:opacity-90">
           <Image src={LogoDark} alt="Logo" className="hidden dark:block" />
@@ -95,7 +95,7 @@ export function Header() {
                 value={dataSearch}
                 onChange={(event) => setDataSearch(event.target.value)}
               />
-              <span className="absolute my-1.5 select-none right-1.5 h-5 bg-slate-50 px-1.5 font-mono text-[10px] font-medium text-grey-400 border dark:border-gray-100/10 dark:bg-zinc-900/50 items-center gap-1 transition-opacity pointer-events-none flex">
+              <span className="absolute my-1.5 select-none right-1.5 h-5 bg-slate-50 px-1.5 font-mono text-[10px] font-medium text-grey-400 border dark:border-gray-100/10 dark:bg-zinc-950/50 items-center gap-1 transition-opacity pointer-events-none flex">
                 {dataSearch.length ? 'ESC' : 'CTRL K'}
               </span>
             </div>
@@ -188,7 +188,7 @@ export function Header() {
       >
         <Dialog.Portal>
           <Dialog.Overlay className="fixed top-16 inset-0 z-50 bg-black/50 data-[state=open]:animate in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 lg:hidden" />
-          <Dialog.Content className="fixed top-16 z-50 gap-4 w-full flex flex-col bg-slate-50 dark:bg-zinc-900 p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500 inset-y-0 left-0 h-full border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left pt-4 lg:hidden overflow-x-auto">
+          <Dialog.Content className="fixed top-16 z-50 gap-4 w-full flex flex-col bg-slate-50 dark:bg-zinc-950 p-6 shadow-lg transition ease-in-out data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:duration-300 data-[state=open]:duration-500 inset-y-0 left-0 h-full border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left pt-4 lg:hidden overflow-x-auto">
             <div className="relative md:w-64 min-w-[200px]">
               <div className="relative flex items-center text-grey-800 dark:text-grey-300">
                 <input
@@ -198,7 +198,7 @@ export function Header() {
                   value={dataSearch}
                   onChange={(event) => setDataSearch(event.target.value)}
                 />
-                <span className="absolute my-1.5 select-none right-1.5 h-5 bg-slate-50 px-1.5 font-mono text-[10px] font-medium text-grey-400 border dark:border-gray-100/10 dark:bg-zinc-900/50 items-center gap-1 transition-opacity pointer-events-none flex">
+                <span className="absolute my-1.5 select-none right-1.5 h-5 bg-slate-50 px-1.5 font-mono text-[10px] font-medium text-grey-400 border dark:border-gray-100/10 dark:bg-zinc-950/50 items-center gap-1 transition-opacity pointer-events-none flex">
                   {dataSearch.length ? 'ESC' : 'CTRL K'}
                 </span>
               </div>

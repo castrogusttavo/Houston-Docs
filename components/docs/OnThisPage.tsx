@@ -65,11 +65,11 @@ export function Link({ href, children }: LinkProps) {
 
 export function OnThisPage({ children, title }: OnThisPageProps) {
   return (
-    <div className="order-last hidden w-64 shrink-0 xl:block print:hidden px-4">
-      <div className="sticky top-16 overflow-y-auto pr-4 pt-6 text-sm max-h-[calc(100vh-(4rem)-env(safe-area-inset-bottom))] -mr-4 -ml-4">
+    <div className="order-last hidden w-64 shrink-0 xl:block print:hidden px-4 z-20">
+      <div className="sticky top-16 overflow-y-auto pr-4 pt-6 text-sm max-h-[calc(100vh-(4rem)-env(safe-area-inset-bottom))] -mr-4 -ml-4 z-20">
         <p className="mb-4 font-semibold tracking-tight">{title}</p>
         <ul>{children}</ul>
-        <div className="mt-8 border-t bg-slate-50 pt-8 dark:bg-zinc-900 sticky bottom-0 flex flex-col items-start gap-2 pb-8 border-neutral-400 dark:border-neutral-800 shadow-[0_-12px_16px_#F8FAFC] dark:shadow-[0_-12px_16px_#18181B]">
+        <div className="mt-8 border-t bg-slate-50 pt-8 dark:bg-zinc-950 sticky bottom-0 flex flex-col items-start gap-2 pb-8 border-neutral-400 dark:border-neutral-800 shadow-[0_-12px_16px_#F8FAFC] dark:shadow-[0_-12px_16px_#09090b]">
           <a
             href=""
             className="text-xs font-medium text-gray-500 hover:text-grey-900 dark:text-gray-400 dark:hover:text-grey-100"

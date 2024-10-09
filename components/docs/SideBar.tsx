@@ -45,7 +45,7 @@ export function ThemeProvider() {
   return (
     <DropdownMenu.Root>
       <DropdownMenu.Trigger
-        className="sticky bottom-0 bg-slate-50 dark:bg-zinc-900 mx-4 py-4 shadow-[0_-12px_16px_#F8FAFC] dark:shadow-[0_-12px_16px_#18181B] flex items-center gap-2 dark:border-neutral-800  contrast-more:border-neutral-400 contrast-more:shadow-none contrast-more:dark:shadow-none border-t"
+        className="sticky bottom-0 bg-slate-50 dark:bg-zinc-950 mx-4 py-4 shadow-[0_-12px_16px_#F8FAFC] dark:shadow-[0_-12px_16px_#09090b] flex items-center gap-2 dark:border-neutral-800  contrast-more:border-neutral-400 contrast-more:shadow-none contrast-more:dark:shadow-none border-t"
         asChild
       >
         <div className="grow flex flex-col">

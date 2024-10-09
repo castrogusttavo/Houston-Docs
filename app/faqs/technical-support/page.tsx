@@ -12,6 +12,7 @@ import {
   DateBlock,
   H1,
   H2,
+  LinkText,
   Paragraph,
 } from '@/components/docs/article/Text'
 import { Footer } from '@/components/docs/Footer'
@@ -21,86 +22,102 @@ import { SideBar } from '@/components/docs/SideBar'
 
 export default function TechnicalSupportPage() {
   return (
-    <div className="bg-slate-50 dark:bg-zinc-900 dark:text-zinc-50 antialiased font-sans min-h-screen transition-[grid-template-columns] duration-300 ease-in-out">
+    <div className="bg-slate-50 dark:bg-zinc-950 dark:text-zinc-50 antialiased font-sans min-h-screen transition-[grid-template-columns] duration-300 ease-in-out">
       <Header />
       <div className="mx-auto flex max-w-[90rem]">
         <SideBar />
         <Article>
-          <Breadcrumbs crumbs={['Best Practice', 'Application Integration']} />
+          <Breadcrumbs crumbs={['FAQs', 'Technical Support']} />
           <H1 id="application-integration">
-            Application Integration Best Practices{' '}
-            <Anchor href="#application-integration" />
+            FAQs: Technical Support <Anchor href="#application-integration" />
           </H1>
           <Paragraph>
-            Integrating icons into your application is not just about choosing
-            the right visuals; it&apos;s also about ensuring they enhance
-            usability, maintain consistency, and align with your brand. This
-            guide provides best practices for incorporating Houston Icons into
-            your application effectively.
+            Getting the help you need when you encounter issues or have
+            questions about HugeIcons is straightforward. Below you&apos;ll find
+            information on how to reach our technical support team and the
+            resources available to you.
           </Paragraph>
           <H2 id="consistency-is-key">
-            Consistency is Key <Anchor href="#consistency-is-key" />
+            How can I get technical support for HugeIcons?{' '}
+            <Anchor href="#consistency-is-key" />
           </H2>
           <Paragraph>
-            Ensure consistent use of icons throughout your application.
-            Consistency in icon style (e.g., outline, filled), size, and color
-            enhances the user experience and reinforces your brand identity.
+            We offer several channels for technical support to ensure you
+            receive the assistance you need:
           </Paragraph>
           <UnorderedList>
             <ListItem>
-              <strong>Style Consistency:</strong> Stick to a single variant
-              (e.g., stroke, solid) across all icons to maintain a cohesive
-              look.
+              <strong>LinkedIn:</strong> Join our on Discord for support and to
+              connect with other users. It&apos;s a great place to share tips,
+              ask questions, and get real-time assistance. Join our Discord
+              server.
             </ListItem>
             <ListItem>
-              <strong>Size Consistency:</strong> Use consistent icon sizes for
-              similar elements across your application. For example, all icons
-              in your navigation bar should be the same size.
+              <strong>Twitter:</strong> Follow us on Twitter @houston_icons for
+              updates, tips, and direct support through Tweets or Direct
+              Messages. Follow Houston Icons on Twitter.
             </ListItem>
             <ListItem>
-              <strong>Color Consistency:</strong> Use your brand colors for
-              icons when appropriate, but ensure they are legible against their
-              background.
+              <strong>Email:</strong> For more detailed inquiries or if you
+              require personalized assistance, feel free to email us at{' '}
+              <LinkText href="mailto:hello.softis@gmail.com">
+                hello.softis@gmail.com
+              </LinkText>
+              . We aim to respond to all emails within 24-48 hours.
             </ListItem>
           </UnorderedList>
-          <H2 id="enhance-usability">
-            Enhance Usability <Anchor href="#enhance-usability" />
+          <H2 id="what-information-should-i-provide-when-seeking-technical-support">
+            What information should I provide when seeking technical support?{' '}
+            <Anchor href="#what-information-should-i-provide-when-seeking-technical-support" />
           </H2>
           <Paragraph>
-            Icons should make your application more intuitive and accessible to
-            users. Follow these guidelines to enhance usability:
+            To help us assist you more efficiently, please include the following
+            information in your support request:
           </Paragraph>
           <UnorderedList>
             <ListItem>
-              <strong>Descriptive Icons:</strong> Choose icons that clearly
-              communicate their function or meaning to avoid confusion.
+              A clear and concise description of the issue or question.
             </ListItem>
             <ListItem>
-              <strong>Labels:</strong> Accompany icons with text labels for
-              critical actions, especially if the icon&apos;s meaning might not
-              be immediately obvious to all users.
+              Any relevant code snippets or screenshots that illustrate the
+              problem.
             </ListItem>
             <ListItem>
-              <strong>Accessible Design::</strong> Ensure icons are accessible
-              to users with disabilities.
+              The version of the HugeIcons package you&apos;re using.
+            </ListItem>
+            <ListItem>
+              Your development environment details (e.g., browser version,
+              React, Vue, Angular or any other version).
             </ListItem>
           </UnorderedList>
           <H2 id="keep-your-icon-library">
-            Keep Your Icon Library Updated
+            Can I request new features or icons?
             <Anchor href="#keep-your-icon-library" />
           </H2>
           <Paragraph>
-            Houston Icon regularly updates its library with new icons and
-            features. Stay up-to-date with these releases to take advantage of
-            the latest designs and improvements.
+            Absolutely! We&apos;re always looking to improve HugeIcons and
+            expand our icon library. If you have suggestions for new features or
+            specific icons you&apos;d like to see, please reach out via any of
+            our support channels. We appreciate your feedback and contributions
+            to making HugeIcons even better.
           </Paragraph>
-          <UnorderedList>
-            <ListItem>
-              <strong>Regular Updates:</strong> Check for updates to the Houston
-              Icons library and incorporate them into your application to keep
-              your icon set fresh and relevant.
-            </ListItem>
-          </UnorderedList>
+          <H2 id="keep-your-icon-library">
+            Is there a roadmap for future updates?
+            <Anchor href="#keep-your-icon-library" />
+          </H2>
+          <Paragraph>
+            Yes, we maintain a roadmap of upcoming features and improvements
+            based on user feedback and our own vision for HugeIcons. While we
+            may not be able to share specific release dates, we&apos;re
+            committed to continuously enhancing the library. Keep an eye on our
+            Twitter account and join our Discord server for the latest updates
+            and announcements.
+          </Paragraph>
+          <Paragraph>
+            Remember, our goal is to provide you with the support you need to
+            use HugeIcons effectively in your projects. Don&apos;t hesitate to
+            reach out with any questions or feedback — we&apos;re here to help!
+          </Paragraph>
           <DateBlock dateTime="Oct, 06, 2024">Oct, 05, 2024</DateBlock>
           <Pagination>
             <PaginationButton

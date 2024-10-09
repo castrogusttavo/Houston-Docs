@@ -27,7 +27,7 @@ import { SideBar } from '@/components/docs/SideBar'
 
 export default function IconLibraryPage() {
   return (
-    <div className="bg-slate-50 dark:bg-zinc-900 dark:text-zinc-50 antialiased font-sans min-h-screen transition-[grid-template-columns] duration-300 ease-in-out">
+    <div className="bg-slate-50 dark:bg-zinc-950 dark:text-zinc-50 antialiased font-sans min-h-screen transition-[grid-template-columns] duration-300 ease-in-out">
       <Header />
       <div className="mx-auto flex max-w-[90rem]">
         <SideBar />
