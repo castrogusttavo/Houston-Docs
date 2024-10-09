@@ -143,7 +143,7 @@ export function CodeLive({ href }: CodeLiveProps) {
   return (
     <div className="mt-4 rounded-md border border-[#252525]">
       <iframe
-        src={href}
+        src={`${href}autoresize=1&module=%2FApp.js&hidenavigation=1&theme='min-dark'&fontsize=14&codemirror=1&lineNumbers=1&&language=javascript`}
         className="w-full h-[300px] border-0 rounded-sm overflow-hidden"
         allow="accelerometer; ambient-light-sensor; encrypted-media; geolocation; gryroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
         sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
