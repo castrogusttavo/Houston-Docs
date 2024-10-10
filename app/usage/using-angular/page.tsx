@@ -35,12 +35,12 @@ export default function AngularUsagePage() {
             straightforward. This page will guide you through the process of
             using Houston Icons Angular components in your application.
           </Paragraph>
-          <H2 id="import-an-icon">
-            Import an Icon <Anchor href="#import-an-icon" />
+          <H2 id="import-an-module">
+            Import an Module <Anchor href="#import-an-module" />
           </H2>
           <Paragraph>
-            Once installed, in your <Code>app.module.ts</Code> you will be able
-            to import HoustonIconsModule, and individual icons from the
+            Once installed, in your <Code>.component.ts</Code> you will be able
+            to import HoustonIconsModule, and individual icons from the{' '}
             <Code>@houstonicons/angular</Code> package:
           </Paragraph>
           <CodeBlock>

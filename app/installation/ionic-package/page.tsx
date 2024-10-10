@@ -94,7 +94,7 @@ export default function AngularPackagePage() {
           </H3>
           <Paragraph>
             In your Ionic project, import the module in the{' '}
-            <Code>app.module.ts</Code> file of your project.
+            <Code>.module.ts</Code> file of your project.
           </Paragraph>
           <CodeBlock>
             <CodeLine>
@@ -123,29 +123,6 @@ export default function AngularPackagePage() {
                 <span className="text-grey-800 dark:text-white">,</span>
                 <br />
                 <span>&#41;&#125;</span>
-              </span>
-            </CodeLine>
-          </CodeBlock>
-          <H3 id="import-package-command">
-            3. Import package in your project:
-            <Anchor href="#import-package-command" />
-          </H3>
-          <Paragraph>
-            In your Ionic project, import the Houston Icons package in a{' '}
-            <Code>.component.ts</Code> file and start using the icons in your
-            application.
-          </Paragraph>
-          <CodeBlock>
-            <CodeLine>
-              <span className="text-red-700 dark:text-red-400">
-                import{' '}
-                <span className="text-grey-800 dark:text-white">
-                  &#123;&#125;
-                </span>{' '}
-                <span className="text-red-700 dark:text-red-400">from</span>{' '}
-                <span className="text-green-800 dark:text-green-500">
-                  &apos;@houstonicons/ionic&apos;
-                </span>
               </span>
             </CodeLine>
           </CodeBlock>
@@ -226,9 +203,6 @@ export default function AngularPackagePage() {
             <Link href="get-npm-command">1. Get NPM install command</Link>
             <Link href="import-module-command">
               2. Import package in your project
-            </Link>
-            <Link href="import-package-command">
-              3. Import package in your project
             </Link>
           </ul>
           <Link href="examples">Examples</Link>

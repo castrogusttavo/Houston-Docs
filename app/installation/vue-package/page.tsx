@@ -166,7 +166,7 @@ export default function VuePackagePage() {
               <span className="text-grey-800 dark:text-white ml-8">
                 &#60;
                 <span className="text-green-800 dark:text-green-500">
-                  Home01Icon
+                  home-01-icon
                 </span>{' '}
                 <span>/&#62;</span>
               </span>

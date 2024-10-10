@@ -39,8 +39,8 @@ export default function IonicUsagePage() {
             Import an Icon <Anchor href="#import-an-icon" />
           </H2>
           <Paragraph>
-            Once installed, in your <Code>app.module.ts</Code> you will be able
-            to import HoustonIconsModule, and individual icons from the
+            Once installed, in your <Code>.component.ts</Code> you will be able
+            to import HoustonIconsModule, and individual icons from the{' '}
             <Code>@houstonicons/ionic</Code> package:
           </Paragraph>
           <CodeBlock>

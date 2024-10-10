@@ -100,11 +100,11 @@ export default function VueUsagePage() {
             </CodeLine>
             <br />
             <CodeLine>
-              <span className="text-red-700 dark:text-red-400">
+              <span className="text-grey-800 dark:text-white">
                 &#60;
                 <span className="text-green-800 dark:text-green-500">
                   template
-                </span>{' '}
+                </span>
                 <span className="text-grey-800 dark:text-white">&#62;</span>
               </span>
             </CodeLine>
@@ -112,41 +112,35 @@ export default function VueUsagePage() {
               <span className="text-grey-800 dark:text-white ml-8">
                 &#60;
                 <span className="text-green-800 dark:text-green-500">
-                  Home01Icon
+                  home-01-icon
                 </span>{' '}
                 <span className="text-purple-800 dark:text-purple-400">
                   color
                   <span className="text-red-700 dark:text-red-400">=</span>
-                  <span className="text-grey-800 dark:text-white">&#123;</span>
                   <span className="text-green-800 dark:text-green-500">
                     &quot;navy&quot;
                   </span>
-                  <span className="text-grey-800 dark:text-white">&#125;</span>
                 </span>{' '}
                 <span className="text-purple-800 dark:text-purple-400">
-                  :size
+                  size
                   <span className="text-red-700 dark:text-red-400">=</span>
-                  <span className="text-grey-800 dark:text-white">&#123;</span>
-                  <span className="text-blue-800 dark:text-blue-300">32</span>
-                  <span className="text-grey-800 dark:text-white">&#125;</span>
+                  <span className="text-green-800 dark:text-green-500">
+                    &quot;32&quot;
+                  </span>
                 </span>{' '}
                 <span className="text-purple-800 dark:text-purple-400">
                   variant
                   <span className="text-red-700 dark:text-red-400">=</span>
-                  <span className="text-grey-800 dark:text-white">&#123;</span>
                   <span className="text-green-800 dark:text-green-500">
                     &quot;duotone&quot;
                   </span>
-                  <span className="text-grey-800 dark:text-white">&#125;</span>
                 </span>{' '}
                 <span className="text-purple-800 dark:text-purple-400">
                   type
                   <span className="text-red-700 dark:text-red-400">=</span>
-                  <span className="text-grey-800 dark:text-white">&#123;</span>
                   <span className="text-green-800 dark:text-green-500">
                     &quot;rounded&quot;
                   </span>
-                  <span className="text-grey-800 dark:text-white">&#125;</span>
                 </span>{' '}
                 <span>/&#62;</span>
               </span>
@@ -177,41 +171,35 @@ export default function VueUsagePage() {
               <span className="text-grey-800 dark:text-white">
                 &#60;
                 <span className="text-green-800 dark:text-green-500">
-                  Home01Icon
+                  home-01-icon
                 </span>{' '}
                 <span className="text-purple-800 dark:text-purple-400">
                   color
                   <span className="text-red-700 dark:text-red-400">=</span>
-                  <span className="text-grey-800 dark:text-white">&#123;</span>
                   <span className="text-green-800 dark:text-green-500">
                     &quot;navy&quot;
                   </span>
-                  <span className="text-grey-800 dark:text-white">&#125;</span>
                 </span>{' '}
                 <span className="text-purple-800 dark:text-purple-400">
-                  :size
+                  size
                   <span className="text-red-700 dark:text-red-400">=</span>
-                  <span className="text-grey-800 dark:text-white">&#123;</span>
-                  <span className="text-blue-800 dark:text-blue-300">32</span>
-                  <span className="text-grey-800 dark:text-white">&#125;</span>
+                  <span className="text-green-800 dark:text-green-500">
+                    &quot;32&quot;
+                  </span>
                 </span>{' '}
                 <span className="text-purple-800 dark:text-purple-400">
                   variant
                   <span className="text-red-700 dark:text-red-400">=</span>
-                  <span className="text-grey-800 dark:text-white">&#123;</span>
                   <span className="text-green-800 dark:text-green-500">
                     &quot;duotone&quot;
                   </span>
-                  <span className="text-grey-800 dark:text-white">&#125;</span>
                 </span>{' '}
                 <span className="text-purple-800 dark:text-purple-400">
                   type
                   <span className="text-red-700 dark:text-red-400">=</span>
-                  <span className="text-grey-800 dark:text-white">&#123;</span>
                   <span className="text-green-800 dark:text-green-500">
                     &quot;rounded&quot;
                   </span>
-                  <span className="text-grey-800 dark:text-white">&#125;</span>
                 </span>{' '}
                 <span>/&#62;</span>
               </span>
