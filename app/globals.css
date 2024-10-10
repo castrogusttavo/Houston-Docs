@@ -9,8 +9,10 @@
   color: #AFE67F
 }
 
-.hldwup {
+.Pane.vertical.Pane1 {
+  margin-top: -32px !important;
+}  
+
+.elements__Tabs-sc-17vifkg-1.hldwup {
   display: none !important;
 }
-
-

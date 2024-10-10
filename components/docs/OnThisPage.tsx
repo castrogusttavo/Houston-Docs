@@ -33,7 +33,7 @@ export function Link({ href, children }: LinkProps) {
     observerRef.current = new IntersectionObserver(handleIntersection, {
       root: null,
       rootMargin: '0px 0px -80% 0px',
-      threshold: 0.1,
+      threshold: 0.5,
     })
 
     if (observerRef.current) {

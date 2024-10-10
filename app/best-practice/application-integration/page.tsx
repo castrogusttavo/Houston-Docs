@@ -81,8 +81,8 @@ export default function ApplicationIntegrationPage() {
               be immediately obvious to all users.
             </ListItem>
             <ListItem>
-              <strong>Accessible Design::</strong> Ensure icons are accessible
-              to users with disabilities.
+              <strong>Accessible Design:</strong> Ensure icons are accessible to
+              users with disabilities.
             </ListItem>
           </UnorderedList>
           <H2 id="keep-your-icon-library">

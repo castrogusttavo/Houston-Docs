@@ -170,8 +170,11 @@ export default function AutocompletePage() {
           </UnorderedList>
           <DateBlock dateTime="Oct, 06, 2024">Oct, 05, 2024</DateBlock>
           <Pagination>
-            <PaginationButton href="/usage/using-flutter" orientation="left">
-              Using Flutter
+            <PaginationButton
+              href="/usage/using-react-native"
+              orientation="left"
+            >
+              Using React Native
             </PaginationButton>
             <PaginationButton
               href="/features/customizable-icons"

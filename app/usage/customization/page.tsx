@@ -103,35 +103,35 @@ export default function CustomizationPage() {
             <Code>{'<SwimmingIcon />'}</Code> component:
           </Paragraph>
           <CodeLive href="https://codesandbox.io/embed/vm6f2l?" />
-          <H2 id="enhance-usability">
-            Color <Anchor href="#enhance-usability" />
+          <H2 id="color">
+            Color <Anchor href="#color" />
           </H2>
           <Paragraph>
             You can change the color of the icons by using the{' '}
             <Code>color</Code> attribute.
           </Paragraph>
-          <CodeLive href="https://codesandbox.io/embed/49vtxz?" />
-          <H2 id="keep-your-icon-library">
+          <CodeLive href="https://codesandbox.io/embed/rtgj7w?" />
+          <H2 id="size">
             Size
-            <Anchor href="#keep-your-icon-library" />
+            <Anchor href="#size" />
           </H2>
           <Paragraph>
             You can change the size of the icons by using the <Code>size</Code>{' '}
             attribute.
           </Paragraph>
-          <CodeLive href="https://codesandbox.io/embed/49vtxz?" />
-          <H2 id="keep-your-icon-library">
+          <CodeLive href="https://codesandbox.io/embed/ytyx7t?" />
+          <H2 id="stroke-width">
             Stroke-Width
-            <Anchor href="#keep-your-icon-library" />
+            <Anchor href="#stroke-width" />
           </H2>
           <Paragraph>
             You can change the stroke width of the icons by using the
             <Code>strokeWidth</Code> attribute.
           </Paragraph>
-          <CodeLive href="https://codesandbox.io/embed/49vtxz?" />
-          <H2 id="keep-your-icon-library">
+          <CodeLive href="https://codesandbox.io/embed/t6lqr7?" />
+          <H2 id="variant">
             Variant
-            <Anchor href="#keep-your-icon-library" />
+            <Anchor href="#variant" />
           </H2>
           <Paragraph>
             You can change the variant of the icons by using the{' '}
@@ -145,24 +145,23 @@ export default function CustomizationPage() {
             <Code>type</Code> attribute can be one of the following values:{' '}
             <Code>rounded</Code>, <Code>sharp</Code> and <Code>standard</Code>
           </Paragraph>
-          <CodeLive href="https://codesandbox.io/embed/49vtxz?" />
-          <DateBlock dateTime="Oct, 06, 2024">Oct, 05, 2024</DateBlock>
+          <CodeLive href="https://codesandbox.io/embed/6msdt9?" />
+          <DateBlock dateTime="Oct, 09, 2024">Oct, 09, 2024</DateBlock>
           <Pagination>
-            <PaginationButton href="/features/icon-library" orientation="left">
-              Icon Library
+            <PaginationButton href="/installation/icon-font" orientation="left">
+              Icon Font
             </PaginationButton>
-            <PaginationButton
-              href="/best-practice/icon-selection"
-              orientation="right"
-            >
-              Icon Selection
+            <PaginationButton href="/usage/using-react" orientation="right">
+              Using React
             </PaginationButton>
           </Pagination>
         </Article>
         <OnThisPage title="On this page">
-          <Link href="consistency-is-key">Consistency is Key</Link>
-          <Link href="enhance-usability">Enhance Usability</Link>
-          <Link href="keep-your-icon-library">Keep Your Icon Library</Link>
+          <Link href="customization-options">Customization Options</Link>
+          <Link href="color">Color</Link>
+          <Link href="size">Size</Link>
+          <Link href="stroke-width">Stroke-Width</Link>
+          <Link href="variant">Variant</Link>
         </OnThisPage>
       </div>
       <Footer />

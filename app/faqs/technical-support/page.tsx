@@ -33,12 +33,12 @@ export default function TechnicalSupportPage() {
           </H1>
           <Paragraph>
             Getting the help you need when you encounter issues or have
-            questions about HugeIcons is straightforward. Below you&apos;ll find
-            information on how to reach our technical support team and the
+            questions about Houston Icons is straightforward. Below you&apos;ll
+            find information on how to reach our technical support team and the
             resources available to you.
           </Paragraph>
           <H2 id="consistency-is-key">
-            How can I get technical support for HugeIcons?{' '}
+            How can I get technical support for Houston Icons?{' '}
             <Anchor href="#consistency-is-key" />
           </H2>
           <Paragraph>
@@ -83,7 +83,7 @@ export default function TechnicalSupportPage() {
               problem.
             </ListItem>
             <ListItem>
-              The version of the HugeIcons package you&apos;re using.
+              The version of the Houston Icons package you&apos;re using.
             </ListItem>
             <ListItem>
               Your development environment details (e.g., browser version,
@@ -95,11 +95,11 @@ export default function TechnicalSupportPage() {
             <Anchor href="#keep-your-icon-library" />
           </H2>
           <Paragraph>
-            Absolutely! We&apos;re always looking to improve HugeIcons and
+            Absolutely! We&apos;re always looking to improve Houston Icons and
             expand our icon library. If you have suggestions for new features or
             specific icons you&apos;d like to see, please reach out via any of
             our support channels. We appreciate your feedback and contributions
-            to making HugeIcons even better.
+            to making Houston Icons even better.
           </Paragraph>
           <H2 id="keep-your-icon-library">
             Is there a roadmap for future updates?
@@ -107,16 +107,17 @@ export default function TechnicalSupportPage() {
           </H2>
           <Paragraph>
             Yes, we maintain a roadmap of upcoming features and improvements
-            based on user feedback and our own vision for HugeIcons. While we
-            may not be able to share specific release dates, we&apos;re
+            based on user feedback and our own vision for Houston Icons. While
+            we may not be able to share specific release dates, we&apos;re
             committed to continuously enhancing the library. Keep an eye on our
             Twitter account and join our Discord server for the latest updates
             and announcements.
           </Paragraph>
           <Paragraph>
             Remember, our goal is to provide you with the support you need to
-            use HugeIcons effectively in your projects. Don&apos;t hesitate to
-            reach out with any questions or feedback — we&apos;re here to help!
+            use Houston Icons effectively in your projects. Don&apos;t hesitate
+            to reach out with any questions or feedback — we&apos;re here to
+            help!
           </Paragraph>
           <DateBlock dateTime="Oct, 06, 2024">Oct, 05, 2024</DateBlock>
           <Pagination>

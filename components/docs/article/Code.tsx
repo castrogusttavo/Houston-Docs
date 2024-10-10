@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from 'react'
 
 interface CodeProps {
@@ -13,7 +15,7 @@ export function Code({ children }: CodeProps) {
 }
 
 export function CodeLine({ children }: CodeProps) {
-  return <span className="px-4 flex gap-2">{children}</span>
+  return <span className="px-4 flex gap-2 scrollbar-hide">{children}</span>
 }
 
 export function CodeBlock({ children }: CodeProps) {
@@ -62,8 +64,8 @@ export function CodeBlock({ children }: CodeProps) {
   }
 
   return (
-    <div className="group relative mt-6 first:mt-0 font-mono">
-      <pre className="bg-slate-700/5 mb-4 overflow-x-auto rounded-xl subpixel-antialiased dark:bg-zinc-300/10 text-sm py-4 text-slate-900 dark:text-slate-100">
+    <div className="group relative mt-6 first:mt-0 font-mono scrollbar-hide">
+      <pre className="bg-slate-700/5 mb-4 overflow-x-auto rounded-xl subpixel-antialiased dark:bg-zinc-300/10 text-sm py-4 text-slate-900 dark:text-slate-100 scrollbar-hide">
         {children}
       </pre>
       <div className="opacity-0 transition group-hover:opacity-100 focus-within:opacity-100 flex gap-1 absolute m-[11px] right-0 top-0">
@@ -143,7 +145,7 @@ export function CodeLive({ href }: CodeLiveProps) {
   return (
     <div className="mt-4 rounded-md border border-[#252525]">
       <iframe
-        src={`${href}autoresize=1&module=%2FApp.js&hidenavigation=1&theme='min-dark'&fontsize=14&codemirror=1&lineNumbers=1&&language=javascript`}
+        src={`${href}?autoresize=1&module=%2FApp.js&hidenavigation=1&theme=min-dark&fontsize=12&codemirror=1&lineNumbers=1&language=javascript&hidedevtools=1&hidenavigation=`}
         className="w-full h-[300px] border-0 rounded-sm overflow-hidden"
         allow="accelerometer; ambient-light-sensor; encrypted-media; geolocation; gryroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
         sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"

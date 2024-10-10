@@ -39,7 +39,7 @@ export default function CommonIssuesPage() {
             When integrating and using Houston Icons in your projects, you might
             encounter some common issues. This guide aims to address these
             problems, providing solutions to ensure a smooth experience with
-            HugeIcons.
+            Houston Icons.
           </Paragraph>
           <H2 id="icons-not-rendering">
             Icons Not Rendering <Anchor href="#icons-not-rendering" />
@@ -80,8 +80,8 @@ export default function CommonIssuesPage() {
             </ListItem>
             <ListItem>
               <strong>Verify Icon Names:</strong> Make sure the icon names in
-              the import statement match the exact names provided by HugeIcons.
-              Pay attention to spelling and case sensitivity.
+              the import statement match the exact names provided by Houston
+              Icons. Pay attention to spelling and case sensitivity.
             </ListItem>
             <ListItem>
               <strong>Check for Typos in Properties:</strong> Incorrectly
