@@ -96,7 +96,7 @@ export default function IonicUsagePage() {
                 <br />
                 <div className="ml-4">
                   <span className="text-blue-800 dark:text-blue-300">
-                    [iconSize]
+                    [size]
                     <span className="text-red-700 dark:text-red-400">=</span>
                     <span className="text-orange-600 dark:text-orange-300">
                       &quot;48&quot;
@@ -105,7 +105,7 @@ export default function IonicUsagePage() {
                 </div>
                 <div className="ml-4">
                   <span className="text-blue-800 dark:text-blue-300">
-                    [fillType]
+                    [variant]
                     <span className="text-red-700 dark:text-red-400">=</span>
                     <span className="text-orange-600 dark:text-orange-300">
                       &quot;&apos;solid&apos;&quot;
@@ -114,7 +114,7 @@ export default function IonicUsagePage() {
                 </div>
                 <div className="ml-4">
                   <span className="text-blue-800 dark:text-blue-300">
-                    [cornerStyle]
+                    [type]
                     <span className="text-red-700 dark:text-red-400">=</span>
                     <span className="text-orange-600 dark:text-orange-300">
                       &quot;&apos;rounded&apos;&quot;
@@ -160,21 +160,21 @@ export default function IonicUsagePage() {
                   houston-home-01-icon
                 </span>{' '}
                 <span className="text-blue-800 dark:text-blue-300">
-                  [iconSize]
+                  [size]
                   <span className="text-red-700 dark:text-red-400">=</span>
                   <span className="text-orange-600 dark:text-orange-300">
                     &quot;48&quot;
                   </span>
                 </span>{' '}
                 <span className="text-blue-800 dark:text-blue-300">
-                  [fillType]
+                  [variant]
                   <span className="text-red-700 dark:text-red-400">=</span>
                   <span className="text-orange-600 dark:text-orange-300">
                     &quot;&apos;solid&apos;&quot;
                   </span>
                 </span>{' '}
                 <span className="text-blue-800 dark:text-blue-300">
-                  [cornerStyle]
+                  [type]
                   <span className="text-red-700 dark:text-red-400">=</span>
                   <span className="text-orange-600 dark:text-orange-300">
                     &quot;&apos;rounded&apos;&quot;
